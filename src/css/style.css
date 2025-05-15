@@ -1,0 +1,9 @@
+@import './reset.css';
+@import './grid.css';
+@import './header.css';
+
+body{
+    background: url(../images/background-portifolio-desktop.jpeg) center center no-repeat;
+    background-position: top;
+    background-color: #ccc;
+}
