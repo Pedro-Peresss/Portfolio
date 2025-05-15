@@ -1,7 +1,6 @@
-body{
-    position: relative;
-}
-header{
+
+header {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -12,18 +11,23 @@ header{
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    position: absolute;
-    top: 1.5rem;
 }
-nav ul{
+
+nav ul {
     display: flex;
     gap: 2rem;
     font-size: 1.2rem;
 }
 
-nav ul li a{
+nav ul li a {
+    display: inline-block;
+    cursor: pointer;
     padding: 0.5rem 1rem;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 20px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a:hover {
+    transform: scale(0.8);
 }
