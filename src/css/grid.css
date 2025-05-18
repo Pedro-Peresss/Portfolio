@@ -5,14 +5,39 @@ body{
     grid-template-areas: "header"
                          "main"
                          "footer";
-    grid-template-rows: minmax(3rem , 4rem) minmax(3rem , auto) minmax(3rem , 4rem);
+    grid-template-rows: 4rem minmax(3rem , auto) minmax(3rem , 4rem);
 }
 header{
     grid-area: header;
 }
 main{
     grid-area: main;
+    display: grid;
+    grid-template-areas: "hero hero"
+                         "about skills"
+                         "projects projects"
+                         "contact contact";
 }
 footer{
     grid-area: footer;
+}
+
+main .hero{
+    grid-area: hero;
+}
+
+main .about{
+    grid-area: about;
+}
+
+main .skills{
+    grid-area: skills;
+}
+
+main .projects{
+    grid-area: projects;
+}
+
+main .contact{
+    grid-area: contact;
 }

@@ -1,9 +1,28 @@
 @import './reset.css';
 @import './grid.css';
 @import './header.css';
-
+@import './hero.css';
+@import './about.css';
+@import './skills.css';
+@import './projects.css';
+@import './contact.css';
+html{
+    font-size: var(--base-font-size);
+}
 body{
     background: url(../images/background-portifolio-desktop.jpeg) center center no-repeat;
     background-position: top;
-    background-color: #ccc;
+    background-color:black;
+}
+
+:root{
+    /* variavel de cores */
+    --cor-opacity-button: #e8f1f2;
+    --cor-text-destaque: #202124;
+    --cor-background-container: hsla(216, 12%, 84%, 0.9);
+    /* variavel de font-size padrão */
+    --base-font-size: 16px;
+    /* variavel de desconto do header para o hero */
+    --margin-top-header: 1.3rem;
+    --heigth-header: 4rem;
 }
