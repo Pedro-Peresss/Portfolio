@@ -17,6 +17,7 @@ main{
                          "about skills"
                          "projects projects"
                          "contact contact";
+    grid-template-columns: 1fr 1fr;
 }
 footer{
     grid-area: footer;
